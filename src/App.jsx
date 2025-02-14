@@ -14,8 +14,8 @@ function App() {
 
   const [noBtnStyle, setNoBtnStyle] = useState({});
   const [sheSaidYes, setSheSaidYes] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
-  const [isClicked, setIsClicked] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
+  // const [isClicked, setIsClicked] = useState(false);
 
   useEffect(() => {
     const images = [
@@ -76,11 +76,11 @@ function App() {
     handleNoHover();
   }, [pageState.count, handleNoHover]);
 
-  const handleStatus = (status) => {
-    setIsOpen(status);
+  const handleStatus = () => {
+    // setIsOpen(status);
   };
-  const handleClick = (status) => {
-    setIsClicked(status);
+  const handleClick = () => {
+    // setIsClicked(status);
   };
 
   return (
@@ -126,7 +126,7 @@ function App() {
         </div>
       ) : (
         <div className="w-full">
-          {isOpen &&
+          {/* {isOpen &&
             
           <><img
           style={{
@@ -176,8 +176,8 @@ function App() {
             width={250}
             height={250}
           />
-          </>
-          }
+          </> */}
+          {/* } */}
 
           <LoveLetter hasClicked={handleClick} setStatus={handleStatus} />
         </div>

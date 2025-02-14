@@ -46,7 +46,7 @@ const LoveLetter = ({setStatus , hasClicked}) => {
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? "fullSize" : ""}`}>
-        My Dearest Hanshika, ❤️✨ From the very moment you entered my life,
+        My Dearest Rashi, ❤️✨ From the very moment you entered my life,
         everything changed. Even though we haven’t met in person, I feel your
         presence in every word you speak, in every detail you share with me.
         Your voice is the sweetest melody, one that I could listen to forever,
@@ -63,7 +63,7 @@ const LoveLetter = ({setStatus , hasClicked}) => {
         the warmth of your presence beside me. 💑🌸 Until then, I will cherish
         you from afar, loving you more with each passing day. You are my
         favorite thought, my sweetest dream, and my most beautiful reality. 🌹💫
-        Forever Yours, Shashank 💖
+        Forever Yours, Gautam 💖
        
       </div>
       <audio
